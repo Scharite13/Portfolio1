@@ -9,57 +9,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav role="navigation">
-            <ul class="navList">
-                <li>Derek Scharite</li>
-                <li>Contact Info</li>
-                <li>Bio</li>
-                <li>Projects</li>
-            </ul>
-        </nav>
-        <main role="main">
-            <header role="banner">
-                <h1>Hello, I’m Derek, I am a full stack developer and life long learner!</h1>
-            </header>
-       
-            <section class="picture">
-                Picture
-            </section>
+        <main role="main" id="main">
+            <header>   
+                <nav role="navigation">
+                 <input type="checkbox" class="menuButton" id="menuButton">
+                    <label class="menuIcon" for="menuButton"><span class="navIcon"></span></label>
+                    <ul class="menu">
+                        <li><a class="scroll" href="index.html#main">Derek Scharite</a></li>
+                        <li><a class="scroll" href="index.html#contactInfo">Contact Info</a></li>
+                        <li><a class="scroll" href="index.html#bio">Bio</a></li>
+                        <li><a class="scroll" href="index.html#project1">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>  
+            
+            <section class="container-1">
+                <section class="hero">
+                    <h1 class="hero-content">Hello, I’m Derek, I am a full stack developer and life long learner!</h1>
+                </section>
+            
+                <section class="picture">
+                    <img class="profile-pic" src="benchpic.jpg">
+                </section>
 
-            <section class="contactInfo">
-                <p>
-                    Derek Scharite<br>  
-                <a href="mailto:Dms121691@gmail.com">Dms121691@gmail.com</a><br>
-                Phone Number: 609-477-8776<br>
-                Address: 10204 46th Ave W Bradenton Fl, 34210
-                </p>
-            </section>
-
-            <section class="bio">
-                <p>     I am a recent graduate from Bloc.io FullStack bootcamp.  I have always enjoyed learning and finding solutions to problems.  
+                <section class="contactInfo" id="contactInfo">
+                    <section class="contactInfo-position">
+                        <h2>Contact Info</h2>
+                        <p>
+                        Derek Scharite<br>  
+                        <a href="mailto:Dms121691@gmail.com">Dms121691@gmail.com</a>
+                        <a href="https://github.com/Scharite13">GitHub: Scharite13</a>
+                        <a href="https://www.linkedin.com/in/derek-scharite-b664a0199/">Linkedin: Derek Scharite</a>
+                        Phone Number: 609-477-8776<br>
+                        Address: 10204 46th Ave W Bradenton Fl, 34210
+                        </p>
+                    </section>
+                </section>
+            </section>     
+            <section class="bio" id="bio">
+                <h2>Bio</h2>
+                <p class="indent">I am a recent graduate from Bloc.io FullStack bootcamp.  I have always enjoyed learning and finding solutions to problems.  
                     After playing on computers for most of my young life I decided I would give building one a try.  
                     After successfully building one I new there was more to computers than just that experience.  
                     I have always been intrigued by technology and how things work.  I am a natural problem solver and disciplined team player.  
                     As much as I enjoy technology I equally have a  love for the outdoors and using my hands to build and fix things.  
-                    I believe this unique love for both the outdoors and technology will prove to be great examples for my two young kids as they grow, spear headed by my amazing loving wife above all else! 
-                        I am considered a Jack of all trades, with an ability to learn things rather quickly.  
-                    With my love for learning it compels me to dig deep into ideas or projects in order to get a fuller understanding of how something work from a fundamental level. </p>
+                    I believe this unique love for both the outdoors and technology will prove to be great examples for my two young kids as they grow, spear headed by my amazing loving wife above all else!</p> 
+                            <p class="indent">I am considered a Jack of all trades, with an ability to learn things rather quickly.  
+                    With my love for learning it compels me to dig deep into ideas or projects in order to get a fuller understanding of how something work from a fundamental level. 
+                </p>
             </section>
 
-            <section class="project1">
+            <section class="project1" id="project1">
+                <h2>Projects</h2>
                 <img class="appThumbNail" src="quizapp.jpg.png">
-                <p>This quiz was made to showcase my abilities with HTML, CSS, and javaScript.
+                <p class="indent">This quiz was made to showcase my abilities with HTML, CSS, and javaScript.
                 It is a quiz to test ones ability to spot and identify certain game species.  
                 This is a valuable skill to have as a hunter because with each species there are certain seasons they are allowed to be hunted.  
                 If a hunter is not able to differentiate between species an animal might be taken out of season. </p>
+                <p>Technologies used: Html, Css, javaScript</p>
                 <a href="https://scharite13.github.io/Quiz-App1/">Quiz App live site</a>
                 <a href="https://github.com/Scharite13/Quiz-App1">Quiz App Repo</a>
             </section>
         
         </main>
         <footer role="contentinfo">&copy Derek Scharite 2019</footer>
-        <script src="" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
