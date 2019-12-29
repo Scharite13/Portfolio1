@@ -29,6 +29,12 @@ p{
     font-size: larger;
 }
 
+.scroll{
+    color: #D5E7F2;
+    font:bold;
+    font-size: larger;
+}
+
 #main{
     font-size: larger;
 }
@@ -231,11 +237,17 @@ footer{
     header{
         display:inline-block;
         position: sticky;
-        background-color:#D5E7F2;
+        background-color:#011C26;
         /*top: 0px;*/
         width: 100%;
         justify-content: flex-start;
         
+    }
+
+    .scroll{
+        color: #D5E7F2;
+        font-size: larger;
+        font: bolder;
     }
 
     header nav .menu{
