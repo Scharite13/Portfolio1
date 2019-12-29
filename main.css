@@ -7,19 +7,6 @@ font-family: 'Crimson Text', serif;*/
 .Elk-Pic-4-hex { color: #011C26; }
 .Elk-Pic-5-hex { color: #8C775D; }
 
-/* Color Theme Swatches in RGBA */
-.Elk-Pic-1-rgba { color: rgba(46, 104, 140, 1); }
-.Elk-Pic-2-rgba { color: rgba(130, 184, 217, 1); }
-.Elk-Pic-3-rgba { color: rgba(213, 231, 242, 1); }
-.Elk-Pic-4-rgba { color: rgba(1, 28, 38, 1); }
-.Elk-Pic-5-rgba { color: rgba(140, 119, 93, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Elk-Pic-1-hsla { color: hsla(202, 50, 36, 1); }
-.Elk-Pic-2-hsla { color: hsla(202, 53, 68, 1); }
-.Elk-Pic-3-hsla { color: hsla(202, 52, 89, 1); }
-.Elk-Pic-4-hsla { color: hsla(196, 94, 7, 1); }
-.Elk-Pic-5-hsla { color: hsla(33, 20, 45, 1); }
 *{
     box-sizing: border-box;
 }
@@ -30,25 +17,15 @@ body{
     margin:0;
 }
 
-/*header{
-    font-family: 'Julius Sans One', sans-serif;
-    position: fixed-top;
-    background-color: gray;
-}*/
-
-/*.navList{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
-    
-}*/
 a{
     font-family: 'Julius Sans One', sans-serif;
     color: #011C26;
     display: block;
     
+}
+
+#main{
+    font-size: larger;
 }
 
 a:hover{
@@ -135,11 +112,6 @@ header .menuButton:checked ~ .menu{
     max-height: 240px;
 }
 
-/*main{
-    display: flex;
-    flex-direction: column;
-    
-}*/
 
 h2{
     font-family: 'Julius Sans One', sans-serif;
