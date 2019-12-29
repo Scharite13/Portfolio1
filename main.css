@@ -13,13 +13,13 @@ font-family: 'Crimson Text', serif;*/
 
 body{
     background-color: #8C775D;
-    color: #D5E7F2;
+    color: white;
     margin:0;
 }
 
 a{
     font-family: 'Julius Sans One', sans-serif;
-    color: #D5E7F2;
+    color: white;
     display: block;
     
 }
