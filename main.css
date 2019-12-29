@@ -13,13 +13,13 @@ font-family: 'Crimson Text', serif;*/
 
 body{
     background-color: #8C775D;
-    color: #011C26;
+    color: #D5E7F2;
     margin:0;
 }
 
 a{
     font-family: 'Julius Sans One', sans-serif;
-    color: #011C26;
+    color: #D5E7F2;
     display: block;
     
 }
@@ -41,7 +41,7 @@ a:hover{
 header{
     display: flex;
     position: fixed;
-    background-color:#D5E7F2;
+    background-color:#011C26;
     top: 0px;
     width: 100%;
     justify-content: flex-end;
@@ -80,7 +80,7 @@ header .menuIcon{
 }
 
 header .menuIcon .navIcon{
-    background: #011C26;
+    background: #D5E7F2;
     display: block;
     height: 2px;
     width: 18px;
