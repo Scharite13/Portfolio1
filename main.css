@@ -12,14 +12,14 @@ font-family: 'Crimson Text', serif;*/
 }
 
 body{
-    background-color: #8C775D;
-    color: white;
+    background-color: white;
+    color: #011C26;
     margin:0;
 }
 
 a{
     font-family: 'Julius Sans One', sans-serif;
-    color: white;
+    color: #011C26;
     display: block;
     font-size: 20px;
     font: bolder;
