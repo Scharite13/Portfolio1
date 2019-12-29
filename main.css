@@ -28,6 +28,12 @@ a{
     font-size: larger;
 }
 
+.hide{
+    display: none;
+    color:transparent
+    
+}
+
 a:hover{
     color: #2E688C;
 }
