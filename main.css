@@ -21,7 +21,12 @@ a{
     font-family: 'Julius Sans One', sans-serif;
     color: white;
     display: block;
+    font-size: 20px;
+    font: bolder;
     
+}
+p{
+    font-size: larger;
 }
 
 #main{
@@ -170,6 +175,8 @@ h2{
     margin-left: 3pix;
     padding-top:3rem;
     
+
+    
     
 }
 
@@ -183,6 +190,7 @@ h2{
     align-items: center;
     padding:1rem;
     padding-top: 3rem;
+    
     
     
 }
